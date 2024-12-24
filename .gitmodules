@@ -1,0 +1,3 @@
+[submodule "Valetudo"]
+	path = Valetudo
+	url = https://github.com/qapilotio/Valetudo.git
