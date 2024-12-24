@@ -2,18 +2,18 @@
 
 ## Overview
 
-Yupiter is a collection of specialized testing agents developed and maintained by the [QAPilot](https://qapilot.io) team. Each agent in the Yupiter series is named after a moon of Jupiter, reflecting the hierarchical and systematic approach to test automation.
+Yupiter is a suite of specialized testing agents developed by the [QAPilot](https://qapilot.io) team. Each agent is named after a moon of Jupiter, symbolizing a structured approach to test automation. The repository is designed for easy management and addition of agents, each with unique functionalities.
 
 ## Project Philosophy
 
-Just as Jupiter's moons orbit and serve specific purposes in the solar system, each agent in the Yupiter series is designed to handle specific testing scenarios and challenges. The project aims to create a comprehensive ecosystem of testing agents that work harmoniously together while maintaining individual specialization.
+Inspired by Jupiter's moons, each Yupiter agent addresses specific testing scenarios and challenges. The goal is to create a cohesive ecosystem of agents that function together while maintaining individual specializations.
 
 ## Current Agents
 
 ### Valetudo
 
 - **Purpose**: Pop-up Handler Agent
-- **Repository**: [https://github.com/qapilotio/Valetudo.git](https://github.com/qapilotio/Valetudo.git)
+- **Repository**: [Valetudo GitHub](https://github.com/qapilotio/Valetudo.git)
 - **Features**:
   - Mobile screenshot analysis
   - XML data processing
@@ -23,34 +23,59 @@ Just as Jupiter's moons orbit and serve specific purposes in the solar system, e
 
 ## Project Structure
 
+Each agent is maintained as a separate repository and added as a submodule in this repository.
+
 ```
 Yupiter/
-├── Valetudo/           # Pop-up Handler Agent
-├── [Future Agent 1]/   # Reserved for future implementation
-├── [Future Agent 2]/   # Reserved for future implementation
-└── shared/            # Shared utilities and resources
+├── Valetudo/           # Pop-up Handler Agent (submodule)
+├── [Future Agent 1]/   # Reserved for future implementation (submodule)
+├── [Future Agent 2]/   # Reserved for future implementation (submodule)
+└── shared/             # Shared utilities and resources
 ```
 
 ## Getting Started
 
-1. Clone the repository:
+1. Clone the repository and initialize submodules:
 
    ```bash
-   git clone https://github.com/qapilotio/Yupiter.git
+   git clone --recurse-submodules https://github.com/qapilotio/Yupiter.git
    cd Yupiter
    ```
 
-2. Navigate to specific agent directory:
+2. Navigate to the specific agent directory:
 
    ```bash
    cd [agent-name]
    ```
 
-3. Follow individual agent README for specific setup instructions.
+3. Follow the individual agent README for setup instructions.
+
+## Adding a New Agent
+
+To add a new agent as a submodule:
+
+1. Navigate to the root of the Yupiter repository.
+2. Add the submodule:
+
+   ```bash
+   git submodule add [agent-repo-url] [agent-name]
+   ```
+
+3. Initialize and update the submodule:
+
+   ```bash
+   git submodule update --init --recursive
+   ```
+
+4. Commit the changes:
+
+   ```bash
+   git commit -m "Add [agent-name] as a submodule"
+   ```
 
 ## Contributing
 
-We welcome contributions to the Yupiter project! Please follow these steps:
+We welcome contributions! Please follow these steps:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -60,18 +85,17 @@ We welcome contributions to the Yupiter project! Please follow these steps:
 
 ## Development Guidelines
 
-- Each agent should be named after a Jupiter moon
-- Maintain consistent coding standards across all agents
+- Maintain consistent coding standards
 - Include comprehensive documentation
 - Provide unit tests for new features
 - Follow semantic versioning
 
 ## Future Roadmap
 
-- Integration of additional specialized testing agents
-- Enhanced inter-agent communication
-- Expanded platform support
-- Advanced AI capabilities integration
+- Add more specialized testing agents
+- Enhance inter-agent communication
+- Expand platform support
+- Integrate advanced AI capabilities
 
 ## License
 
@@ -79,11 +103,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- Website: [https://qapilot.io](https://qapilot.io)
-- GitHub: [https://github.com/qapilotio](https://github.com/qapilotio)
+- Website: [QAPilot](https://qapilot.io)
+- GitHub: [QAPilot GitHub](https://github.com/qapilotio)
 
 ## Acknowledgments
 
-- The QAPilot team for continuous development and maintenance
-- The open-source community for their valuable contributions
+- The QAPilot team for ongoing development
+- The open-source community for contributions
 - NASA's Jupiter moon naming system for inspiration
