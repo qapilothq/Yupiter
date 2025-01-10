@@ -1,3 +1,6 @@
 [submodule "Valetudo"]
 	path = Valetudo
 	url = https://github.com/qapilotio/Valetudo.git
+[submodule "Eupheme"]
+	path = Eupheme
+	url = https://github.com/qapilotio/Eupheme.git
