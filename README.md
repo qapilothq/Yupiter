@@ -13,7 +13,7 @@ Yupiter is a unified ecosystem of intelligent testing agents, each designed to t
 ### Valetudo
 
 - **Purpose**: Pop-up Handler Agent
-- **Repository**: [Valetudo GitHub](https://github.com/qapilotio/Valetudo.git)
+- **Repository**: [Valetudo GitHub](https://github.com/qapilothq/Valetudo)
 - **Features**:
   - Mobile screenshot analysis
   - XML data processing
@@ -24,7 +24,7 @@ Yupiter is a unified ecosystem of intelligent testing agents, each designed to t
 ### Euporie
 
 - **Purpose**: Test Data Generator Agent
-- **Repository**: [Valetudo GitHub](https://github.com/qapilotio/Valetudo.git)
+- **Repository**: [Euporie GitHub](https://github.com/qapilothq/Euporie)
 - **Features**:
   - Supports screenshots and XML files.
   - Prioritized using config, Faker, then LLM.
@@ -34,7 +34,7 @@ Yupiter is a unified ecosystem of intelligent testing agents, each designed to t
 ### Eupheme
 
 - **Purpose**: Accessibility Agent
-- **Repository**: [Valetudo GitHub](https://github.com/qapilotio/Valetudo.git)
+- **Repository**: [Eupheme GitHub](https://github.com/qapilothq/Eupheme)
 - **Features**:
   - It solves Content Description issues
   - Touch target size issues
@@ -44,7 +44,7 @@ Yupiter is a unified ecosystem of intelligent testing agents, each designed to t
 ### Orthosie
 
 - **Purpose**: Generation of BDD Testcase Scenarios and Teststeps
-- **Repository**: [Valetudo GitHub](https://github.com/qapilotio/Valetudo.git)
+- **Repository**: [Orthosie GitHub](https://github.com/qapilothq/Orthosie)
 - **Features**:
   - Auto-generates BDD scenarios from screenshots or user input.
   - Creates detailed test steps using page source XML.
