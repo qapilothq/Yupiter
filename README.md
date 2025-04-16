@@ -6,7 +6,7 @@ Yupiter is a suite of specialized testing agents developed by the [QAPilot](http
 
 ## Project Philosophy
 
-Inspired by Jupiter's moons, each Yupiter agent addresses specific testing scenarios and challenges. The goal is to create a cohesive ecosystem of agents that function together while maintaining individual specializations.
+Yupiter is a unified ecosystem of intelligent testing agents, each designed to tackle specific challenges in software testing. Inspired by the structured harmony of Jupiter and its moons, Yupiter transforms fragmented, repetitive testing into an organized, scalable, and efficient process. Every agent plays a unique role—working together to bring speed, stability, and intelligence to modern software quality assurance.
 
 ## Current Agents
 
