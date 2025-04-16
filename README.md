@@ -21,6 +21,36 @@ Yupiter is a unified ecosystem of intelligent testing agents, each designed to t
   - AI-powered suggestions using GPT-4o
   - FastAPI-based architecture
 
+### Euporie
+
+- **Purpose**: Test Data Generator Agent
+- **Repository**: [Valetudo GitHub](https://github.com/qapilotio/Valetudo.git)
+- **Features**:
+  - Supports screenshots and XML files.
+  - Prioritized using config, Faker, then LLM.
+  - REST API with base64 and string support.
+  - Parses detailed field info from XML.
+
+### Eupheme
+
+- **Purpose**: Accessibility Agent
+- **Repository**: [Valetudo GitHub](https://github.com/qapilotio/Valetudo.git)
+- **Features**:
+  - It solves Content Description issues
+  - Touch target size issues
+  - Colour contrast issues
+  - Heading structure and hierarchy issues
+ 
+### Orthosie
+
+- **Purpose**: Generation of BDD Testcase Scenarios and Teststeps
+- **Repository**: [Valetudo GitHub](https://github.com/qapilotio/Valetudo.git)
+- **Features**:
+  - Auto-generates BDD scenarios from screenshots or user input.
+  - Creates detailed test steps using page source XML.
+  - Offers smart recommendations via OpenAI.
+  - REST API with XML parsing and full documentation.
+
 ## Project Structure
 
 Each agent is maintained as a separate repository and added as a submodule in this repository.
